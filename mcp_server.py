@@ -28,7 +28,7 @@ def get_weather(city: str) -> str:
     Fetches the current weather for a given city using OpenWeatherMap API.
     Advises to carry an umbrella if rain is mentioned in the description.
     """
-    api_key = "88fb13a484c079f6680237dbbc748f07"
+    api_key = ""
     if not api_key:
         return "Weather API key not found. Please set the WEATHER_API_KEY environment variable."
 
